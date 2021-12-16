@@ -1,0 +1,51 @@
+.bar-container{
+    margin-left: 35%;
+    margin-top: 20%;
+    background-color: rgba(0,0,0,1);
+    width: 500px;
+    height: 40px;
+    padding: 5px;
+    display: block;
+    border-radius: 10px;
+}
+.progress-bar{
+    background: linear-gradient(#884EA0,#48C9B0);
+    width: 0px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    position: fixed;
+}
+.buttons-container{
+    display: block;
+    margin-top: 20px;
+    margin-left: 42%;
+}
+.btn-cancel{
+    border: 1px solid rgba(231, 76, 60,1);
+    background: none;
+    padding: 5px;
+    width: 100px;
+    border-radius: 5px;
+    color: rgba(231, 76, 60,1);
+    cursor: pointer;
+}
+.btn-cancel:hover{
+    color: white;
+    background: rgba(231, 76, 60,1);
+}
+.btn-active{
+    border: 1px solid rgba(52, 152, 219,1);
+    background: rgba(52, 152, 219,1);
+    padding: 5px;
+    width: 100px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+.btn-active:hover{
+    color: rgba(52, 152, 219,1);
+    background: none;
+}
